@@ -7,7 +7,7 @@ const ImagePreview = ({ title, src, alt }) => {
 
   return ( 
     <div className="image-preview">
-      <h2>{ title  }</h2>
+      <h2>{ title }</h2>
       <img src={src} alt={alt} />
     </div>
    );

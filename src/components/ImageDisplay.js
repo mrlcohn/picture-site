@@ -6,8 +6,7 @@ const ImageDisplay = ({ images }) => {
       {images.map((image) => (
         <ImagePreview
           title={image.title}
-          src={image.src}
-          alt={image.alt}
+          path={image.path}
           key={image.id}
         />
       ))} 
