@@ -9,3 +9,4 @@ typings/
 *.tgz
 .yarn-integrity
 public/images
+build/images
