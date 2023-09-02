@@ -1,0 +1,22 @@
+{
+  "images": [
+    {
+      "title": "Example 1",
+      "src": "images/image1.png",
+      "alt": "Example 1",
+      "id": 1
+    },
+    {
+      "title": "Example 2",
+      "src": "images/image2.jpg",
+      "alt": "Example 2",
+      "id": 2
+    },
+    {
+      "title": "Example 3",
+      "src": "images/image3.jpg",
+      "alt": "Example 3",
+      "id": 3
+    }
+  ]
+}
