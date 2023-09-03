@@ -5,7 +5,7 @@ const ImageDisplay = ({ images }) => {
     <div className="image-display">
       {images.map((image) => (
         <ImagePreview
-          title={image.title}
+          title={image.name}
           path={image.path}
           key={image.id}
         />
