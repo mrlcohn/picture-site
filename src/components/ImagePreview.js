@@ -1,9 +1,11 @@
 import '../index.css';
 
-const ImagePreview = ({ title, src, alt }) => {
-  // const source = require(src).default;
-  
-  // console.log(src);
+const ImagePreview = ({ title, path }) => {
+  let src;
+
+  fetch('server.cohn-family.photos/photos' + path)
+    .then(response => response.json())
+    .then(src = response.url);
 
   return ( 
     <div className="image-preview">
