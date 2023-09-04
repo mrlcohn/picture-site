@@ -1,13 +1,13 @@
 import ImagePreview from "./ImagePreview";
 
-const ImageDisplay = ({ images }) => {
+const ImageDisplay = ({ photos }) => {
   return (
     <div className="image-display">
-      {images.map((image) => (
+      {photos.map((photo) => (
         <ImagePreview
-          title={image.title}
-          path={image.path}
-          key={image.id}
+          title={photo.title}
+          path={photo.path}
+          key={photo.id}
         />
       ))} 
     </div>
