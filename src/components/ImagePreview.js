@@ -2,7 +2,7 @@ import useFetch from '../hooks/useFetch';
 import '../index.css';
 
 const ImagePreview = ({ title, path }) => {
-  const { data: src, isPending } = useFetch('https://server.cohn-family.photos/photos/' + path);
+  const { data: src, isPending } = useFetch('https://server.cohn-family.photos/api/photos/' + path);
 
   return ( 
     <div>
